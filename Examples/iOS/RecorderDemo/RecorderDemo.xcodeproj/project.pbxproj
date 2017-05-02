@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		436BD33C1EB93D6E00BAD586 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BD33B1EB93D6E00BAD586 /* MainViewController.swift */; };
 		7814CAE81D463C30004EA355 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7814CAE61D463B49004EA355 /* AudioKit.framework */; };
 		7814CAEA1D463C75004EA355 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7814CAE61D463B49004EA355 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C4486EF11D42AE4700FE135F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4486EE91D42AE4700FE135F /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		436BD33B1EB93D6E00BAD586 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7814CAE61D463B49004EA355 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "../../../Frameworks/AudioKit-iOS/AudioKit.framework"; sourceTree = "<group>"; };
 		8DAD9EDD1D3E4A3400CD3B0A /* RecorderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecorderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4486EE91D42AE4700FE135F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				C4486EED1D42AE4700FE135F /* Main.storyboard */,
 				C4486EF01D42AE4700FE135F /* ViewController.swift */,
+				436BD33B1EB93D6E00BAD586 /* MainViewController.swift */,
 				7814CAEC1D463D0E004EA355 /* Supporting files */,
 			);
 			path = RecorderDemo;
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436BD33C1EB93D6E00BAD586 /* MainViewController.swift in Sources */,
 				C4486EF11D42AE4700FE135F /* AppDelegate.swift in Sources */,
 				C4486EF61D42AE4700FE135F /* ViewController.swift in Sources */,
 			);
@@ -306,7 +310,6 @@
 				INFOPLIST_FILE = RecorderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.audiokit.recorder;
 				PRODUCT_NAME = RecorderDemo;
 				SWIFT_VERSION = 3.0;
 			};
@@ -326,7 +329,6 @@
 				INFOPLIST_FILE = RecorderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.audiokit.recorder;
 				PRODUCT_NAME = RecorderDemo;
 				SWIFT_VERSION = 3.0;
 			};
